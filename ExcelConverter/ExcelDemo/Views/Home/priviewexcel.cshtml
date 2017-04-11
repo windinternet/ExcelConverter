@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title></title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <h4>Excel文件预览</h4>
+        <hr/>
+        <div>
+            @{
+                var fileInfos = ViewData["infos"] as ExcelConverter.ExcelDocument<ExcelDemo.Models.FileInfo>;
+                if (fileInfos == null)
+                { 
+                    <div>
+                        上传的文件消失在二次元中了~
+                    </div>
+                }
+                else
+                {
+                    if (!fileInfos.HasRows && fileInfos.InnerException != null)
+                    { 
+                        <div>
+                            你传上来的文件有错误：@fileInfos.InnerException.Message
+                        </div>
+                    }
+                    else if (!fileInfos.HasRows)
+                    { 
+                        <div>
+                            你传上来的文件未包含任何有效的行
+                        </div>
+                    }
+                    else
+                    { 
+                        <table class="table table-bordered" >
+                            <thead>
+                                @(new HtmlString(fileInfos.GetHeader()))   
+                            </thead>
+                            <tbody>
+                                @{
+                                    while(fileInfos.HasRows)
+                                    {
+                                        @(new HtmlString(fileInfos.ReadRowByString())) 
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    } 
+                }
+                
+            }
+        </div>
+
+        <a class="btn btn-info" href="/" >
+            返回首页
+        </a>
+    </div>
+    
+
+</body>
+</html>

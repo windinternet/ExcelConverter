@@ -1,0 +1,177 @@
+<html><head><meta http-equiv="content-type" content="application/ms-excel; charset=UTF-8"/></head><body><table border='1'>
+<tr>
+<td  align='center' colspan='15'>目录文件列表</td>
+</tr>
+<tr>
+<th >Name</th>
+<th >Length</th>
+<th >DirectoryName</th>
+<th >Directory</th>
+<th >IsReadOnly</th>
+<th >Exists</th>
+<th >FullName</th>
+<th >Extension</th>
+<th >CreationTime</th>
+<th >CreationTimeUtc</th>
+<th >LastAccessTime</th>
+<th >LastAccessTimeUtc</th>
+<th >LastWriteTime</th>
+<th >LastWriteTimeUtc</th>
+<th >Attributes</th>
+</tr>
+
+<tr>
+<td >adcfg.json</td>
+<td >61</td>
+<td >C:\</td>
+<td >C:\</td>
+<td >False</td>
+<td >True</td>
+<td >C:\adcfg.json</td>
+<td >.json</td>
+<td >2017/1/16 15:27:45</td>
+<td >2017/1/16 7:27:45</td>
+<td >2017/1/16 15:27:45</td>
+<td >2017/1/16 7:27:45</td>
+<td >2017/1/18 17:14:14</td>
+<td >2017/1/18 9:14:14</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >bootmgr</td>
+<td >383786</td>
+<td >C:\</td>
+<td >C:\</td>
+<td >True</td>
+<td >True</td>
+<td >C:\bootmgr</td>
+<td ></td>
+<td >2015/5/5 9:48:07</td>
+<td >2015/5/5 1:48:07</td>
+<td >2016/6/3 9:36:19</td>
+<td >2016/6/3 1:36:19</td>
+<td >2010/11/21 11:23:51</td>
+<td >2010/11/21 3:23:51</td>
+<td >ReadOnly, Hidden, System, Archive</td>
+</tr>
+<tr>
+<td >BOOTSECT.BAK</td>
+<td >8192</td>
+<td >C:\</td>
+<td >C:\</td>
+<td >True</td>
+<td >True</td>
+<td >C:\BOOTSECT.BAK</td>
+<td >.BAK</td>
+<td >2015/5/5 9:48:09</td>
+<td >2015/5/5 1:48:09</td>
+<td >2015/5/5 9:48:09</td>
+<td >2015/5/5 1:48:09</td>
+<td >2015/5/5 9:48:09</td>
+<td >2015/5/5 1:48:09</td>
+<td >ReadOnly, Hidden, System, Archive</td>
+</tr>
+<tr>
+<td >dogdriver.txt</td>
+<td >1114</td>
+<td >C:\</td>
+<td >C:\</td>
+<td >False</td>
+<td >True</td>
+<td >C:\dogdriver.txt</td>
+<td >.txt</td>
+<td >2016/12/1 16:39:13</td>
+<td >2016/12/1 8:39:13</td>
+<td >2016/12/1 16:39:13</td>
+<td >2016/12/1 8:39:13</td>
+<td >2016/12/1 16:56:32</td>
+<td >2016/12/1 8:56:32</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >GHLDR</td>
+<td >272159</td>
+<td >C:\</td>
+<td >C:\</td>
+<td >True</td>
+<td >True</td>
+<td >C:\GHLDR</td>
+<td ></td>
+<td >2016/2/16 0:00:00</td>
+<td >2016/2/15 16:00:00</td>
+<td >2016/2/16 0:00:00</td>
+<td >2016/2/15 16:00:00</td>
+<td >2016/2/16 0:00:00</td>
+<td >2016/2/15 16:00:00</td>
+<td >ReadOnly, Hidden, System</td>
+</tr>
+<tr>
+<td >hiberfil.sys</td>
+<td >6333923328</td>
+<td >C:\</td>
+<td >C:\</td>
+<td >False</td>
+<td >True</td>
+<td >C:\hiberfil.sys</td>
+<td >.sys</td>
+<td >2015/5/5 9:51:38</td>
+<td >2015/5/5 1:51:38</td>
+<td >2015/5/5 9:51:38</td>
+<td >2015/5/5 1:51:38</td>
+<td >2017/4/11 9:36:05</td>
+<td >2017/4/11 1:36:05</td>
+<td >Hidden, System, Archive, NotContentIndexed</td>
+</tr>
+<tr>
+<td >php.zip</td>
+<td >11947365</td>
+<td >C:\</td>
+<td >C:\</td>
+<td >False</td>
+<td >True</td>
+<td >C:\php.zip</td>
+<td >.zip</td>
+<td >2017/3/31 17:35:32</td>
+<td >2017/3/31 9:35:32</td>
+<td >2017/3/31 17:35:32</td>
+<td >2017/3/31 9:35:32</td>
+<td >2017/3/31 17:35:33</td>
+<td >2017/3/31 9:35:33</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >unintall.log</td>
+<td >1778</td>
+<td >C:\</td>
+<td >C:\</td>
+<td >False</td>
+<td >True</td>
+<td >C:\unintall.log</td>
+<td >.log</td>
+<td >2016/10/17 9:22:15</td>
+<td >2016/10/17 1:22:15</td>
+<td >2016/10/17 9:22:15</td>
+<td >2016/10/17 1:22:15</td>
+<td >2016/10/17 9:23:32</td>
+<td >2016/10/17 1:23:32</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >w7ldr</td>
+<td >171136</td>
+<td >C:\</td>
+<td >C:\</td>
+<td >True</td>
+<td >True</td>
+<td >C:\w7ldr</td>
+<td ></td>
+<td >2015/5/5 10:51:31</td>
+<td >2015/5/5 2:51:31</td>
+<td >2015/5/5 10:51:31</td>
+<td >2015/5/5 2:51:31</td>
+<td >2009/9/15 15:21:30</td>
+<td >2009/9/15 7:21:30</td>
+<td >ReadOnly, Hidden, System, Archive</td>
+</tr>
+</table>
+</body></html>

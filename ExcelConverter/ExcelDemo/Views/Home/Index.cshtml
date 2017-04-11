@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title></title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        .service-item {
+            display: inline-block;
+            margin: auto;
+            width: 100%;
+        }
+
+            .service-item a {
+                display: block;
+                text-decoration: none;
+                text-align: center;
+            }
+
+            .service-item i {
+                font-size: 128px;
+                display: block;
+                margin: auto;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h3 class="text-center">请选择你的体验项目</h3>
+        <hr />
+        <div class="row">
+            <div class="col-xs-12 col-sm-6  col-md-6 col-lg-6   ">
+                <div class="service-item">
+                    <a href="/home/exportexcel?path=C:\">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        下载Excel Demo（导出Excel）
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6  col-md-6 col-lg-6   ">
+                <div class="service-item">
+                    <a href="javascript:upfile.click();">
+                        <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                        上传Excel Demo（导入Excel）
+                    </a>
+                </div>
+            </div>
+            <form method="post" enctype="multipart/form-data" style="display:none;" id="form1" action="/home/priviewexcel">
+                <input type="file" name="a" id="upfile" />
+            </form>
+            <script>
+                var timeId = setInterval(function () {
+                    if (upfile.files.length != 0)
+                    {
+                        clearInterval(timeId);
+                        form1.submit();
+                    }
+                }, 400);
+
+            </script>
+        </div>
+        <h3 class="text-center">THE CODE</h3>
+        <hr />
+        <pre>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Web;
+using System.Web.Mvc;
+using System.IO;
+using ExcelConverter;
+namespace ExcelDemo.Controllers
+{
+    public class HomeController : Controller
+    {
+        //
+        // GET: /Home/
+        public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult PriviewExcel()
+        {
+            if (Request.Files.Count==0)
+            {
+                return Redirect(&quot;/&quot;);
+            }
+            var file = Request.Files[0];
+            var fileName=Guid.NewGuid().ToString()+Path.GetExtension(file.FileName);
+            var realPath=Server.MapPath(fileName);
+            if (!Directory.Exists(Path.GetDirectoryName(realPath)))
+                Directory.CreateDirectory(Path.GetDirectoryName(realPath));
+            file.SaveAs(realPath);
+            ExcelDocument&lt;Models.FileInfo&gt; fileinfos = ExcelDocument&lt;Models.FileInfo&gt;.LoadFromFile&lt;Models.FileInfo&gt;(realPath);
+            ViewData.Add(&quot;infos&quot;,fileinfos);
+            if (System.IO.File.Exists(realPath))
+            {
+                System.IO.File.Delete(realPath);
+            }
+                return View();
+        }
+        public void ExportExcel()
+        {
+            var path = Request.Params[&quot;path&quot;];
+            var fileName = &quot;Excel导出Demo&quot;;
+            var files = Directory.GetFiles(path);
+            ExcelDocument&lt;FileInfo&gt; fileinfos = new ExcelDocument&lt;FileInfo&gt;(&quot;目录文件列表&quot;);
+            foreach (var file in files)
+            {
+                fileinfos.WriteRow(new FileInfo(file));
+            }
+            Response.ClearHeaders();
+            Response.Clear();
+            Response.AppendHeader(&quot;content-disposition&quot;, &quot;attachment; filename=&quot; + (fileName + &quot;.xls&quot;));
+            Response.ContentType = &quot;application/vnd.ms-excel&quot;;
+            Response.ContentEncoding = Encoding.UTF8;
+            Response.Write(&quot;&lt;html&gt;\r\n&quot;);
+            Response.Write(&quot;&lt;head&gt;\r\n&quot;);
+            Response.Write(&quot;&lt;meta http-equiv=\&quot;content-type\&quot; content=\&quot;application/ms-excel; charset=UTF-8\&quot;/&gt;\r\n&quot;);
+            Response.Write(&quot;&lt;/head&gt;\r\n&quot;);
+            Response.Write(&quot;&lt;body&gt;\r\n&quot;);
+            Response.Write(fileinfos.ToHtml());
+            Response.Write(&quot;&lt;/body&gt;\r\n&quot;);
+            Response.Write(&quot;&lt;/html&gt;\r\n&quot;);
+            Response.End();
+        }
+    }
+}
+</pre>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,670 @@
+<html><head><meta http-equiv="content-type" content="application/ms-excel; charset=UTF-8"/></head><body><table border='1'>
+<tr>
+<td  align='center' colspan='15'>目录文件列表</td>
+</tr>
+<tr>
+<th >Name</th>
+<th >Length</th>
+<th >DirectoryName</th>
+<th >Directory</th>
+<th >IsReadOnly</th>
+<th >Exists</th>
+<th >FullName</th>
+<th >Extension</th>
+<th >CreationTime</th>
+<th >CreationTimeUtc</th>
+<th >LastAccessTime</th>
+<th >LastAccessTimeUtc</th>
+<th >LastWriteTime</th>
+<th >LastWriteTimeUtc</th>
+<th >Attributes</th>
+</tr>
+
+<tr>
+<td >adcfg.json</td>
+<td >61</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\adcfg.json</td>
+<td >.json</td>
+<td >2016/12/23 15:38:39</td>
+<td >2016/12/23 7:38:39</td>
+<td >2016/12/23 15:38:39</td>
+<td >2016/12/23 7:38:39</td>
+<td >2016/12/26 10:05:02</td>
+<td >2016/12/26 2:05:02</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >AnkhSvn-2.6.12730.msi</td>
+<td >4562944</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\AnkhSvn-2.6.12730.msi</td>
+<td >.msi</td>
+<td >2016/6/13 10:23:55</td>
+<td >2016/6/13 2:23:55</td>
+<td >2016/6/13 10:23:55</td>
+<td >2016/6/13 2:23:55</td>
+<td >2016/6/13 10:24:55</td>
+<td >2016/6/13 2:24:55</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >Axure8.0正式版-Windows版本.zip</td>
+<td >86235331</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\Axure8.0正式版-Windows版本.zip</td>
+<td >.zip</td>
+<td >2016/6/2 10:03:52</td>
+<td >2016/6/2 2:03:52</td>
+<td >2016/6/2 10:03:52</td>
+<td >2016/6/2 2:03:52</td>
+<td >2016/6/2 10:03:32</td>
+<td >2016/6/2 2:03:32</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >axure_rp_pro_33lc.zip</td>
+<td >61468937</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\axure_rp_pro_33lc.zip</td>
+<td >.zip</td>
+<td >2015/11/26 16:43:19</td>
+<td >2015/11/26 8:43:19</td>
+<td >2015/11/26 16:43:19</td>
+<td >2015/11/26 8:43:19</td>
+<td >2015/11/26 16:44:18</td>
+<td >2015/11/26 8:44:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >Chromestable_51.0.2704.63.exe</td>
+<td >45775776</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\Chromestable_51.0.2704.63.exe</td>
+<td >.exe</td>
+<td >2016/6/1 11:13:46</td>
+<td >2016/6/1 3:13:46</td>
+<td >2016/6/1 11:13:46</td>
+<td >2016/6/1 3:13:46</td>
+<td >2016/6/1 11:14:42</td>
+<td >2016/6/1 3:14:42</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >DG2015Setup_1202B.exe</td>
+<td >26559120</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\DG2015Setup_1202B.exe</td>
+<td >.exe</td>
+<td >2016/6/1 10:15:15</td>
+<td >2016/6/1 2:15:15</td>
+<td >2016/6/1 10:15:15</td>
+<td >2016/6/1 2:15:15</td>
+<td >2016/6/1 10:16:11</td>
+<td >2016/6/1 2:16:11</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >eula.1028.txt</td>
+<td >17734</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\eula.1028.txt</td>
+<td >.txt</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >eula.1031.txt</td>
+<td >17734</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\eula.1031.txt</td>
+<td >.txt</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >eula.1033.txt</td>
+<td >10134</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\eula.1033.txt</td>
+<td >.txt</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >eula.1036.txt</td>
+<td >17734</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\eula.1036.txt</td>
+<td >.txt</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >eula.1040.txt</td>
+<td >17734</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\eula.1040.txt</td>
+<td >.txt</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >eula.1041.txt</td>
+<td >118</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\eula.1041.txt</td>
+<td >.txt</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >eula.1042.txt</td>
+<td >17734</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\eula.1042.txt</td>
+<td >.txt</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >eula.2052.txt</td>
+<td >17734</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\eula.2052.txt</td>
+<td >.txt</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >eula.3082.txt</td>
+<td >17734</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\eula.3082.txt</td>
+<td >.txt</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >fabu.zip</td>
+<td >86910300</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\fabu.zip</td>
+<td >.zip</td>
+<td >2016/8/9 18:40:15</td>
+<td >2016/8/9 10:40:15</td>
+<td >2016/8/9 18:40:15</td>
+<td >2016/8/9 10:40:15</td>
+<td >2016/8/9 18:40:23</td>
+<td >2016/8/9 10:40:23</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >globdata.ini</td>
+<td >1110</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\globdata.ini</td>
+<td >.ini</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >insertdata.sql</td>
+<td >91513</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\insertdata.sql</td>
+<td >.sql</td>
+<td >2016/12/29 10:33:29</td>
+<td >2016/12/29 2:33:29</td>
+<td >2017/1/13 11:44:00</td>
+<td >2017/1/13 3:44:00</td>
+<td >2017/1/13 11:44:01</td>
+<td >2017/1/13 3:44:01</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >insertdata目录2016年11月9日（不包含提现和车险相关）.sql</td>
+<td >88573</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\insertdata目录2016年11月9日（不包含提现和车险相关）.sql</td>
+<td >.sql</td>
+<td >2016/10/20 14:01:06</td>
+<td >2016/10/20 6:01:06</td>
+<td >2016/11/8 13:47:16</td>
+<td >2016/11/8 5:47:16</td>
+<td >2016/11/9 16:25:10</td>
+<td >2016/11/9 8:25:10</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >insertdata给骆甘霖的目录2016年11月10日.sql</td>
+<td >88807</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\insertdata给骆甘霖的目录2016年11月10日.sql</td>
+<td >.sql</td>
+<td >2016/11/9 17:22:25</td>
+<td >2016/11/9 9:22:25</td>
+<td >2016/11/10 9:52:57</td>
+<td >2016/11/10 1:52:57</td>
+<td >2016/11/10 9:53:48</td>
+<td >2016/11/10 1:53:48</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.exe</td>
+<td >562688</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.exe</td>
+<td >.exe</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.ini</td>
+<td >843</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.ini</td>
+<td >.ini</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.res.1028.dll</td>
+<td >76304</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.res.1028.dll</td>
+<td >.dll</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:47</td>
+<td >2017/3/30 6:15:47</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.res.1031.dll</td>
+<td >96272</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.res.1031.dll</td>
+<td >.dll</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:47</td>
+<td >2017/3/30 6:15:47</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.res.1033.dll</td>
+<td >91152</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.res.1033.dll</td>
+<td >.dll</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:47</td>
+<td >2017/3/30 6:15:47</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.res.1036.dll</td>
+<td >97296</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.res.1036.dll</td>
+<td >.dll</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:47</td>
+<td >2017/3/30 6:15:47</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.res.1040.dll</td>
+<td >95248</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.res.1040.dll</td>
+<td >.dll</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:47</td>
+<td >2017/3/30 6:15:47</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.res.1041.dll</td>
+<td >81424</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.res.1041.dll</td>
+<td >.dll</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:47</td>
+<td >2017/3/30 6:15:47</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.res.1042.dll</td>
+<td >79888</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.res.1042.dll</td>
+<td >.dll</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:47</td>
+<td >2017/3/30 6:15:47</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.res.2052.dll</td>
+<td >75792</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.res.2052.dll</td>
+<td >.dll</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:47</td>
+<td >2017/3/30 6:15:47</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >install.res.3082.dll</td>
+<td >96272</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\install.res.3082.dll</td>
+<td >.dll</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >2017/3/30 14:15:47</td>
+<td >2017/3/30 6:15:47</td>
+<td >2007/11/7 8:03:18</td>
+<td >2007/11/7 0:03:18</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >LocalSite.zip</td>
+<td >87681312</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\LocalSite.zip</td>
+<td >.zip</td>
+<td >2016/11/14 13:57:56</td>
+<td >2016/11/14 5:57:56</td>
+<td >2016/11/14 13:57:56</td>
+<td >2016/11/14 5:57:56</td>
+<td >2016/11/14 13:58:01</td>
+<td >2016/11/14 5:58:01</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >setup_534.exe</td>
+<td >2651216</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\setup_534.exe</td>
+<td >.exe</td>
+<td >2015/11/26 16:42:33</td>
+<td >2015/11/26 8:42:33</td>
+<td >2015/11/26 16:42:33</td>
+<td >2015/11/26 8:42:33</td>
+<td >2015/11/26 16:42:52</td>
+<td >2015/11/26 8:42:52</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >test</td>
+<td >19049984</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\test</td>
+<td ></td>
+<td >2016/12/8 10:27:35</td>
+<td >2016/12/8 2:27:35</td>
+<td >2016/12/8 10:27:35</td>
+<td >2016/12/8 2:27:35</td>
+<td >2016/12/8 10:26:44</td>
+<td >2016/12/8 2:26:44</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >vcredist.bmp</td>
+<td >5686</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\vcredist.bmp</td>
+<td >.bmp</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:00:40</td>
+<td >2007/11/7 0:00:40</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >VC_RED.cab</td>
+<td >1442522</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\VC_RED.cab</td>
+<td >.cab</td>
+<td >2007/11/7 8:09:22</td>
+<td >2007/11/7 0:09:22</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:09:22</td>
+<td >2007/11/7 0:09:22</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >VC_RED.MSI</td>
+<td >232960</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\VC_RED.MSI</td>
+<td >.MSI</td>
+<td >2007/11/7 8:12:28</td>
+<td >2007/11/7 0:12:28</td>
+<td >2017/3/30 14:15:48</td>
+<td >2017/3/30 6:15:48</td>
+<td >2007/11/7 8:12:28</td>
+<td >2007/11/7 0:12:28</td>
+<td >Archive</td>
+</tr>
+<tr>
+<td >带全球购的平台后台目录2016年12月19日.sql</td>
+<td >94736</td>
+<td >d:\</td>
+<td >d:\</td>
+<td >False</td>
+<td >True</td>
+<td >d:\带全球购的平台后台目录2016年12月19日.sql</td>
+<td >.sql</td>
+<td >2016/12/19 17:12:41</td>
+<td >2016/12/19 9:12:41</td>
+<td >2016/12/19 17:12:41</td>
+<td >2016/12/19 9:12:41</td>
+<td >2016/12/19 17:13:09</td>
+<td >2016/12/19 9:13:09</td>
+<td >Archive</td>
+</tr>
+</table>
+</body></html>
